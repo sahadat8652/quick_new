@@ -1,0 +1,172 @@
+/* common start */
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif; 
+	font-size: 16px;
+	color: #0F2656;
+}
+/* common end */
+/* header start */
+.header{
+	padding: 2px 0;
+	border-bottom: 1px solid #EEF0F3;
+}
+.margin{
+	margin: 0 auto;
+}
+.container{
+	width: 90%;
+	overflow: hidden;
+}
+/* logo start */
+.logo{
+	margin-top: 8px;
+	width: 8%;
+	float: left;
+}
+.logo a{}
+.logo a img{
+	width: 100%;
+}
+/* logo end */
+/* menu start */
+.menu{
+	width: 40%;
+	float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	margin: 0 18px;
+	text-decoration: none;
+	color: #0F2656;
+}
+.menu ul li a:hover{
+	color: #008AFF;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+/* menu end */
+/* header end */
+/*banner start*/
+.banner{
+	padding: 15px 0;
+}
+.container2{
+	width: 65%;
+}
+.c-banner{
+	margin-bottom: 90px;
+    text-align: center;
+}
+.b-text{
+	width: 90%;
+}
+.b-text h1{
+	margin-bottom: 0;
+	font-size: 45px;
+    padding: 0 90px;
+
+}
+.b-text h1 span{
+	color: #008AFF;
+}
+.b-text p{
+	
+}
+.b-img{
+	width: 65%;	
+}
+.b-img img{
+	width: 100%;
+}
+.success{
+	margin: 55px auto;
+	width: 98%;
+	overflow: hidden;
+}
+.left{
+	width: 48%;
+	float: left;
+	text-align: right;
+}
+.left h2{
+	margin: 0;
+	font-size: 45px;
+    color: #FF0000;   
+}
+.left p{
+	margin-top: 2px;
+	padding-left: 45px;
+	line-height: 25px;
+}
+.right{
+	width: 48%;
+    float: right;
+}
+.right h2{
+	margin: 0;
+	font-size: 45px;  
+    padding-right: 30px;
+    line-height: 57px;
+}
+/*banner end*/
+/* about start */
+.about{
+	padding: 10px 0 70px;
+}
+.single{
+	margin-right: 42px;
+	padding: 40px 0 35px;
+	width: 31%;
+	float: left;
+}
+.s-img{
+	width: 90%;
+}
+.s-img img{
+	width: 100%;
+}
+.single h2{
+	font-size: 20px;
+    margin: 0;
+    padding-left: 25px;
+}
+.single p{
+	padding: 0 25px;
+    line-height: 24px;
+}
+.single1{
+	background-color: #FDEBED;
+}
+.single2{
+	background-color: #EBF9F4;
+}
+.single3{
+	margin-right: 0;
+	background-color: #FFF7E8;
+}
+/* about end */
+/* footer start */
+footer{
+	background-color: #008AFF;
+}
+.copyright{
+	padding: 15px 0;
+	width: 35%;
+}
+.copyright p{
+	color: #85D2FF;
+}
+.copyright p span{
+	font-weight: 700;
+    color: #FFFFFF;
+	letter-spacing: 5px;
+}
